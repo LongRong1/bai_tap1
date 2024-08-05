@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: #f0f7f9;
     padding: 25px 15px;
+    /* transition: all linear 0.2s; */
 }
 
 .sidebar img{
@@ -15,7 +16,10 @@
     display: block;
     margin-left: 10px;
     cursor: pointer;
+    /* transition: all linear 0.2s; */
 }
+
+
 
 .sidebar .new-chat{
     margin-top: 50px;
@@ -33,6 +37,7 @@
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent-title{
@@ -63,4 +68,10 @@
 .sidebar .bottom-item{
     padding: 10px;
     cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
 }
