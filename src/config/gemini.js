@@ -1,4 +1,4 @@
-const apiKeys ='AIzaSyD-8dHYgXreTrGz7HO3IMspe6bNSu6HMK8';
+const apiKeys ='';
 
 /*
  * Install the Generative AI SDK
